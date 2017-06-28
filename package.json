@@ -1,0 +1,19 @@
+{
+  "name": "daily",
+  "version": "1.0.0",
+  "description": "What I Learned/Want to Learn/Thoughts",
+  "main": "readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-lowe-nz/daily.git"
+  },
+  "author": "Michael Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael-lowe-nz/daily/issues"
+  },
+  "homepage": "https://github.com/michael-lowe-nz/daily#readme"
+}
