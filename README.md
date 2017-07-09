@@ -16,3 +16,7 @@ MySQL DB
 Creating a class/table in SS
 Handling Images in SS
 Webscraping with cheerio, looking at other people's code
+
+**9.7.17**
+Promise.all catches when any of the promises reject.
+Need to find a better way to execute a whole array of promises, regardless of whether they resolve or reject.
