@@ -33,3 +33,5 @@ Starting to look into Oauth, need better understanding of what is trying to be a
 
 **27.7.17**
 Composer.json, looking into how the backend for forms works. RESTful API endpoints with Silverstripe
+Auth is hard
+owl.carousel will take a bit of fiddling to look like it did, but some good css practice
