@@ -35,3 +35,6 @@ Starting to look into Oauth, need better understanding of what is trying to be a
 Composer.json, looking into how the backend for forms works. RESTful API endpoints with Silverstripe
 Auth is hard
 owl.carousel will take a bit of fiddling to look like it did, but some good css practice
+
+**31.7.17**
+Lots of pulling apart .css files and recomposing into multiple .scss files. Working with jQuery, managed to remove parents'dependency on jquery for the responsiveness of the carousel. Wanting to use more jQuery for doing front-end stuff as haven't really done at all in the past. 
