@@ -44,3 +44,6 @@ Installed AWS ElasticBeanstalk CLI
 Setting up intelliJ to eslint with the airbnb configuration
 Pulling apart more jQuery
 Needed to be clicking around the pages of the site more often to detect breakages, page-utils
+
+**3.8.17**
+Setting up forms, should make better use of generators for next forms project
