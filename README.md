@@ -47,3 +47,8 @@ Needed to be clicking around the pages of the site more often to detect breakage
 
 **3.8.17**
 Setting up forms, should make better use of generators for next forms project
+
+**4.8.17**
+Just because something is in the gitignore doesn't necessarily mean it will be ignored.
+If it has been previously staged then it will still want to be included in git, need to do someting like:
+`$ git rm -r -f --cached dist` if you are trying to ignore the dist folder, or maybe the .idea folder
