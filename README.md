@@ -59,3 +59,4 @@ Deployed a form to UAT, using Bamboo to make a production build that is commited
 **10.8.17**
 Making sure to run tests before commiting and pushing
 Maybe git pre-commit hook to fix this e.g. https://www.npmjs.com/package/pre-commit
+Redux with vanilla js to do the adding calculator
