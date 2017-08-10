@@ -55,3 +55,7 @@ If it has been previously staged then it will still want to be included in git, 
 
 **9.8.17**
 Deployed a form to UAT, using Bamboo to make a production build that is commited to the master branch on gitlab, then used dash.cwp to deploy it to UAT, which is on the moeforms instance. Starting to talk about the best way to gather requirements for forms
+
+**10.8.17**
+Making sure to run tests before commiting and pushing
+Maybe git pre-commit hook to fix this e.g. https://www.npmjs.com/package/pre-commit
