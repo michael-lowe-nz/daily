@@ -66,3 +66,4 @@ Going ember app from scratch, couldn't make work with base-components
 
 **14.8.17**
 Made ember app work from scratch by stripping down previous project. Must have quite specific dependencies. Need better understanding of MVC to translate how I would do something with react/redux to using a full MVC framework like ember.
+Implement the remove function in the adding calculator, using an onclick function binding and by assigning each one based on its index
