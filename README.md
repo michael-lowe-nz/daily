@@ -63,3 +63,6 @@ Redux with vanilla js to do the adding calculator
 
 **11.8.17**
 Going ember app from scratch, couldn't make work with base-components
+
+**14.8.17**
+Made ember app work from scratch by stripping down previous project. Must have quite specific dependencies. Need better understanding of MVC to translate how I would do something with react/redux to using a full MVC framework like ember.
