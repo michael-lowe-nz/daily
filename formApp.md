@@ -2,11 +2,13 @@ App needs to create a form object, that will ultimately look something like this
 
 ```json
 {
+  "id": 142342,
   "title": "My Form",
   "subtitle": "What a form!",
   "instructions": "<p>Fill out this form by 18 September 2020</p>",
   "sections": [
     {
+      "id": 1424,
       "title": "Student Details",
       "fields": [
         {
@@ -43,6 +45,18 @@ App needs to create a form object, that will ultimately look something like this
   ]
 }
 ```
+
+For this data:
+
+* FORM has many SECTIONS
+  - db -> id
+  - db -> title
+  - db -> subtitle
+  - db -> instructions
+* SECTION has one FORM
+* SECTION has many FIELDS
+* FIELD has one SECTION
+
 
 # Displaying a form from json
 
