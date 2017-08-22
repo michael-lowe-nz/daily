@@ -1,4 +1,4 @@
-# daily
+ daily
 
 Place to say stuff...
 
@@ -72,3 +72,5 @@ Implement the remove function in the adding calculator, using an onclick functio
 Revising the idea of 'data down actions up' in  Ember
 Making things in Ember, shoudl refactor more as I go, code starting to look at bit hairy
 
+**22.8.17**
+MOEforms demo could use a bit of refactoring, need to also factor in some models and then do backend where possibly just post a stringified JSON object to be stored as a single form.
