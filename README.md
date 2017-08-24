@@ -74,3 +74,6 @@ Making things in Ember, shoudl refactor more as I go, code starting to look at b
 
 **22.8.17**
 MOEforms demo could use a bit of refactoring, need to also factor in some models and then do backend where possibly just post a stringified JSON object to be stored as a single form.
+
+**24.8.17**
+Node script to send an email from an AWS service that sends email, had some cors issues, looking at google forms for a bit of what to do for moeforms.
