@@ -77,3 +77,6 @@ MOEforms demo could use a bit of refactoring, need to also factor in some models
 
 **24.8.17**
 Node script to send an email from an AWS service that sends email, had some cors issues, looking at google forms for a bit of what to do for moeforms.
+
+**31.8.17**
+Ember.js frontend application, parsing JSON and stringifying it, escaping the html in some stringified json for displaying in tte browser
