@@ -80,3 +80,6 @@ Node script to send an email from an AWS service that sends email, had some cors
 
 **31.8.17**
 Ember.js frontend application, parsing JSON and stringifying it, escaping the html in some stringified json for displaying in tte browser
+
+**21.9.17**
+Reverse proxying port 80 to port 8888 with Apache, so that you can have a node app being served internally from port 8888
