@@ -83,3 +83,6 @@ Ember.js frontend application, parsing JSON and stringifying it, escaping the ht
 
 **21.9.17**
 Reverse proxying port 80 to port 8888 with Apache, so that you can have a node app being served internally from port 8888
+
+**25.9.17**
+Using MongoDB to store form data with mongoose as a querying builder. Handling routing and data coming into the application with Ember. Serving up different routes from different plplaces with an Apache server
