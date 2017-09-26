@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/michael-lowe-nz/daily/issues"
   },
-  "homepage": "https://github.com/michael-lowe-nz/daily#readme"
+  "homepage": "https://github.com/michael-lowe-nz/daily#readme",
+  "dependencies": {
+    "superagent": "^3.6.0"
+  }
 }
