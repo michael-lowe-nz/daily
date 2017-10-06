@@ -88,3 +88,8 @@ Reverse proxying port 80 to port 8888 with Apache, so that you can have a node a
 Using MongoDB to store form data with mongoose as a querying builder. Handling routing and data coming into the application with Ember.
 Serving up different routes from different places, e.g. everything from /api gets routed to the express server, everything else looks in the directories on the server and serves through apache.
 
+**6.9.17**
+Creating Docker Images using the command line, e.g `$  docker build . -t my-docker-image`
+Setting up docker containers to expose a given port to the host
+Nginx config to send / to localhost:8080, and /api to localhost:8888 or something
+Why should we use Docker? Setting up a project so that you can clone it on to a server, and just run `$npm run deploy-docker` to make life easy for me or whoever it needs to be easy for.
