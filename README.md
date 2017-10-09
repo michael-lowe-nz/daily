@@ -93,3 +93,7 @@ Creating Docker Images using the command line, e.g `$  docker build . -t my-dock
 Setting up docker containers to expose a given port to the host
 Nginx config to send / to localhost:8080, and /api to localhost:8888 or something
 Why should we use Docker? Setting up a project so that you can clone it on to a server, and just run `$npm run deploy-docker` to make life easy for me or whoever it needs to be easy for.
+
+**10.9.17**
+Need to get better at focusing on daily tasks, too much time skipping between tasks. Learning the importance of setting up a project to have a really tight development environment, with all the right things in the right places.
+So that all you ever need to do is look at the readme, clone down and follow the steps and be up and running in no time
