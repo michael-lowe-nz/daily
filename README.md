@@ -97,3 +97,13 @@ Why should we use Docker? Setting up a project so that you can clone it on to a 
 **10.9.17**
 Need to get better at focusing on daily tasks, too much time skipping between tasks. Learning the importance of setting up a project to have a really tight development environment, with all the right things in the right places.
 So that all you ever need to do is look at the readme, clone down and follow the steps and be up and running in no time
+
+Also am wanting to start doing some little snippets in this repo, to demonstrate some kind of javascript concept, and progress them through. Would also be cool if they were all TDD and whatnot.
+
+Some ideas: 
+* Closures
+* Async/Await
+* Chaining promises with passing down data
+* let, var, const differences
+* Function keyword vs fat arrow functions
+...Stay tuned!
