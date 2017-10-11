@@ -108,7 +108,7 @@ Some ideas:
 * Function keyword vs fat arrow functions
 ...Stay tuned!
 
-11.10.17
+*11.10.17*
 Key 'gotcha' with docker is that a docker image will just go back down again if its not doing anything. E.g. if we docker-compose a file, and create an image,  but not let it know to run its startup script (the one that likely has npm install etc.) then it will go down again straight away.
 
 p.s. an emoji :smile: 
