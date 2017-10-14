@@ -100,7 +100,7 @@ So that all you ever need to do is look at the readme, clone down and follow the
 
 Also am wanting to start doing some little snippets in this repo, to demonstrate some kind of javascript concept, and progress them through. Would also be cool if they were all TDD and whatnot.
 
-Some ideas: 
+Some ideas:
 * Closures
 * Async/Await
 * Chaining promises with passing down data
@@ -111,7 +111,9 @@ Some ideas:
 *11.10.17*
 Key 'gotcha' with docker is that a docker image will just go back down again if its not doing anything. E.g. if we docker-compose a file, and create an image,  but not let it know to run its startup script (the one that likely has npm install etc.) then it will go down again straight away.
 
-p.s. an emoji :smile: 
+p.s. an emoji :smile:
 
 *13.10.17*
 Couldn't get docker to start pm2 and stay up so ended up just using node, which will run in the foreground, but using -d when running docker-compose up, will run it in the background, and then the container can close but still be open if you know what I mean.
+
+*Docker*:whale:
