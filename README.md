@@ -117,3 +117,18 @@ p.s. an emoji :smile:
 Couldn't get docker to start pm2 and stay up so ended up just using node, which will run in the foreground, but using -d when running docker-compose up, will run it in the background, and then the container can close but still be open if you know what I mean.
 
 *Docker*:whale:
+
+*16.19.17*
+What did I learn today? That UFW is the Linux firewall program sort of thing. When installing NGINX, I was going something like this:
+```bash
+$ sudo apt-get update
+$ sudo apt-get install nginx
+$ sudo ufw allow 'Nginx HTTP'
+$sudo ufw enable
+```
+Which will not enable SSH connections on port 22, so when I closed my ssh connection, I was unable to re ssh into my server. So then if you can't ssh in, there isn't much you can do. I found an article on how you might do it by mounting another instance on that instance, but in my case it was much easier to just nuke the server and start again.
+
+So also need to include this command:
+```bash
+$ sudo ufw enable ssh
+```
