@@ -135,3 +135,7 @@ $ sudo ufw enable ssh
 
 *20.10.17*
 Creating the component in base-components that will render out all the forms from mongoDB representations so has to be well tested
+
+*13.11.17*
+Haven't written in here in a while... :grimacing:
+More Silverstripe stuff, learning more about the cms and framework in general, in particular using the RESTapi module to serve up and CRUD data objects.
