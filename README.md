@@ -108,23 +108,23 @@ Some ideas:
 * Function keyword vs fat arrow functions
 ...Stay tuned!
 
-*11.10.17*
+**11.10.17**
 Key 'gotcha' with docker is that a docker image will just go back down again if its not doing anything. E.g. if we docker-compose a file, and create an image,  but not let it know to run its startup script (the one that likely has npm install etc.) then it will go down again straight away.
 
 p.s. an emoji :smile:
 
-*13.10.17*
+**13.10.17**
 Couldn't get docker to start pm2 and stay up so ended up just using node, which will run in the foreground, but using -d when running docker-compose up, will run it in the background, and then the container can close but still be open if you know what I mean.
 
 *Docker*:whale:
 
-*16.19.17*
+**16.19.17**
 What did I learn today? That UFW is the Linux firewall program sort of thing. When installing NGINX, I was going something like this:
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install nginx
 $ sudo ufw allow 'Nginx HTTP'
-$sudo ufw enable
+$ sudo ufw enable
 ```
 Which will not enable SSH connections on port 22, so when I closed my ssh connection, I was unable to re ssh into my server. So then if you can't ssh in, there isn't much you can do. I found an article on how you might do it by mounting another instance on that instance, but in my case it was much easier to just nuke the server and start again.
 
@@ -133,9 +133,15 @@ So also need to include this command:
 $ sudo ufw enable ssh
 ```
 
-*20.10.17*
+**20.10.17**
 Creating the component in base-components that will render out all the forms from mongoDB representations so has to be well tested
 
-*13.11.17*
+**13.11.17**
 Haven't written in here in a while... :grimacing:
 More Silverstripe stuff, learning more about the cms and framework in general, in particular using the RESTapi module to serve up and CRUD data objects.
+
+**30.11.17**
+Had a great time working on creating dynamic computed properties that depend on values that are specified in the model. Usually, with a computed property you need to know what value it will watch at the time the Ember component is instantiated. At this point, these values are unknown because the app needs to get the model from the API, which happens after the component is declared.
+
+The way to get around this was quite interesting, which I found here: https://spin.atomicobject.com/2015/08/03/ember-computed-properties/
+Basically, inside your computed property, you return another Ember object that has the computed property that you after. That way you can dynamically declare the computed property's values it depends on.
