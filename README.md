@@ -145,3 +145,6 @@ Had a great time working on creating dynamic computed properties that depend on 
 
 The way to get around this was quite interesting, which I found here: https://spin.atomicobject.com/2015/08/03/ember-computed-properties/
 Basically, inside your computed property, you return another Ember object that has the computed property that you after. That way you can dynamically declare the computed property's values it depends on.
+
+**3.1.18**
+Ember addons, [egghead.io]
