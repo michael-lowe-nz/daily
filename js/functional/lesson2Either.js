@@ -30,15 +30,15 @@ const result2 = Left(2)
 
 console.log('Result: ', result2)
 
-const findColor = color => {
-  const colors = {
+const fromNullable = x => x != null ? Right(x) : Left(null)
+
+const findColor = color => (
+  fromNullable({
     red: '#ff9122',
     blue: '#5e5e5e',
     orange: '#ff9100'
-  }
-  const found = colors[color]
-  return found ? Right(found) : Left(found)
-}
+  }[color])
+)
 
 const result3 = findColor('blahblah')
   .map(str => str.slice(1))
@@ -48,3 +48,12 @@ const result3 = findColor('blahblah')
   )
 
 console.log('Color:', result3)
+
+const result4 = findColor('orange')
+  .map(str => str.slice(1))
+  .fold(
+    e => 'No Color!',
+    color => color.toUpperCase()
+  )
+
+console.log('Color:', result4)
